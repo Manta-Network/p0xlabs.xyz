@@ -1,6 +1,5 @@
 import { FC } from 'react';
 import { Link as RouterLink } from 'react-router-dom';
-import icon from 'assets/images/home/icon.svg';
 
 interface Props {
   logo: string;
