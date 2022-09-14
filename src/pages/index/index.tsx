@@ -319,7 +319,7 @@ export const Index: FC = () => {
                 {v.intro2 !== undefined ? (
                   <div className="mt-[10px]">
                     {v.intro2.map(val => (
-                      <div>{val}</div>
+                      <div key={val}>{val}</div>
                     ))}
                   </div>
                 ) : null}
