@@ -15,7 +15,7 @@ export const Footer: FC = () => {
           onClick={() => window.open('https://jobs.lever.co/MantaNetwork')}
         >
           <img src={wave2} className="absolute left-0 bottom-0 h-full" />
-          <span className="font-mono text-[30px] font-bold">JOIN US</span>
+          <span className="font-mono text-[30px] font-bold">Join Us</span>
         </button>
         <button
           className="relative h-[75px] w-[274px] rounded-[17px] bg-yellow text-blue"
