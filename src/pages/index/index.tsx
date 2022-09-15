@@ -33,7 +33,7 @@ export const Index: FC = () => {
             <div className="flex shrink-0 flex-col">
               <div className="relative text-[60px] font-medium">
                 <div>
-                  BRING <span className="text-blue">PRIVACY</span>
+                  BRINGING <span className="text-blue">PRIVACY</span>
                 </div>
                 <div>TO EVERY WEB3 PROJECT</div>
               </div>
@@ -42,7 +42,7 @@ export const Index: FC = () => {
                 technologies
               </div>
               <div className="font-light text-black opacity-80">
-                powered by <span className="font-semibold">zero knowledge proofs</span>
+                powered by <span className="font-semibold">zero-knowledge proofs</span>
               </div>
             </div>
             <div className="-ml-[350px] flex-1">
@@ -80,26 +80,26 @@ export const Index: FC = () => {
             </div>
             <div className="-ml-[345px] bg-gray pt-[26px] pb-[54px] pl-[345px]">
               <div className="font-bold text-black3">
-                Empower decentralized future with privacy using zero-knowledge proofs
+                Empower a decentralized future with privacy using zero-knowledge proofs
               </div>
               <div className="mt-[42px] flex justify-between">
                 <div>
                   <img src={bluePoints} className="h-[22px]" />
                   <div className="mt-[18px] w-[136px] text-[14px] opacity-60">
-                    First solidity programmable zkApp ecosystem powered zk-SNARKs
+                    The first Solidity-programmable zkApp ecosystem powered by zk-SNARKs
                   </div>
                 </div>
                 <div>
                   <img src={grayPoints} className="h-[22px]" />
                   <div className="mt-[18px] w-[136px] text-[14px] opacity-60">
-                    Fastest UTXO-based zkAsset protocols with cheap transaction cost
+                    The fastest UTXO-based zkAssets protocol with low transaction fees
                   </div>
                 </div>
                 <div>
                   <img src={bluePoints} className="h-[22px]" />
                   <div className="relative mt-[18px] w-[136px] text-[14px]">
                     <div className="opacity-60">
-                      Build as universal execution layer on most decentralized networks
+                      Build a universal execution layer on most decentralized networks
                     </div>
                     <img src={arrow} className="absolute top-[193px] right-0" />
                   </div>
@@ -109,7 +109,7 @@ export const Index: FC = () => {
                 className="mt-[30px] h-[40px] w-[240px] rounded-[8px] bg-blue text-[20px] text-white"
                 onClick={() => navigate('/team')}
               >
-                Check out Team
+                Check out the Team
               </button>
             </div>
           </div>
@@ -199,8 +199,8 @@ export const Index: FC = () => {
           <img src={arrow2} className="absolute left-[153px] -top-[27px]" />
           <div className="mt-[85px] text-center text-[60px] font-medium text-black1">USE CASE</div>
           <div className="mx-auto mt-[25px] mb-[62px] w-[830px] text-center text-[14px] text-black opacity-80">
-            These use cases can be built on any network built by p0xeidon labs. If you are
-            interested in pursuing a use case farther, please reach out to hello@p0xeidon.xyz
+            These use cases can be deployed on any network built by p0xeidon labs. If you are
+            interested in pursuing a use case further, please reach out to hello@p0xeidon.xyz
           </div>
           <div className="flex justify-center gap-[30px]">
             {useCase.map((v, i) => (
@@ -220,7 +220,7 @@ export const Index: FC = () => {
         <div id="part1-mb">
           <div className="relative pt-[80px] text-[26px] font-medium">
             <div>
-              BRING <span className="text-blue">PRIVACY</span>
+              BRINGING <span className="text-blue">PRIVACY</span>
             </div>
             <div>TO EVERY WEB3 PROJECT</div>
           </div>
@@ -229,7 +229,7 @@ export const Index: FC = () => {
             technologies
           </div>
           <div className="scale-83 text-[12px] font-light text-black opacity-80">
-            powered by <span className="font-semibold">zero knowledge proofs</span>
+            powered by <span className="font-semibold">zero-knowledge proofs</span>
           </div>
           <div className="mt-[10px] px-[37px]">
             <img src={part1} className="mx-auto w-full max-w-[400px]" />
@@ -257,25 +257,25 @@ export const Index: FC = () => {
           </div>
           <div className="mt-[12px] inline-block w-full bg-gray">
             <div className="mt-[20px] px-[60px] text-[14px] font-bold text-black3">
-              Empower decentralized future with privacy using zero-knowledge proofs
+              Empower a decentralized future with privacy using zero-knowledge proofs
             </div>
             <div className="mt-[27px]">
               <div>
                 <img src={bluePoints} className="mx-auto h-[24px]" />
                 <div className="mx-auto mt-[11px] w-[150px] text-[12px] opacity-60">
-                  First solidity programmable zkApp ecosystem powered zk-SNARKs
+                  The first Solidity-programmable zkApp ecosystem powered by zk-SNARKs
                 </div>
               </div>
               <div className="mt-[20px]">
                 <img src={grayPoints} className="mx-auto h-[24px]" />
                 <div className="mx-auto mt-[11px] w-[150px] text-[12px] opacity-60">
-                  Fastest UTXO-based zkAsset protocols with cheap transaction cost
+                  The fastest UTXO-based zkAssets protocol with low transaction fees
                 </div>
               </div>
               <div className="mt-[20px]">
                 <img src={bluePoints} className="mx-auto h-[24px]" />
                 <div className="mx-auto mt-[11px] w-[150px] text-[12px] opacity-60">
-                  Build as universal execution layer on most decentralized networks
+                  Build a universal execution layer on most decentralized networks
                 </div>
               </div>
             </div>
@@ -283,7 +283,7 @@ export const Index: FC = () => {
               className="mt-[20px] h-[22px] w-[114px] rounded-[4px] bg-blue text-[12px] text-white"
               onClick={() => navigate('/team')}
             >
-              <div className="scale-83">Check out Team</div>
+              <div className="scale-83">Check out the Team</div>
             </button>
             <div className="mt-[20px] px-[100px]">
               <img src={part2} className="mx-auto mb-[16px] w-full max-w-[400px]" />
@@ -345,8 +345,8 @@ export const Index: FC = () => {
         <div id="part4-mb" className="relative inline-block w-full bg-gray pb-[40px]">
           <div className="mt-[10px] text-center text-[26px] font-medium text-black1">USE CASE</div>
           <div className="mx-[40px] my-[20px] text-center text-[16px] text-black opacity-80">
-            These use cases can be built on any network built by p0xeidon labs. If you are
-            interested in pursuing a use case farther, please reach out to hello@p0xeidon.xyz
+            These use cases can be deployed on any network built by p0xeidon labs. If you are
+            interested in pursuing a use case further, please reach out to hello@p0xeidon.xyz
           </div>
           <div className="flex flex-col items-center gap-[20px]">
             {useCase.map((v, i) => (

@@ -42,70 +42,70 @@ import yi from 'assets/images/team/yi.svg';
 export const contributors = [
   {
     avatar: adam,
-    name: 'Adam Reif',
+    name: 'Adam R.',
     job: 'Runtime',
     github: 'https://github.com/Garandor',
     twitter: '',
   },
   {
     avatar: boyuan,
-    name: 'Boyuan',
+    name: 'Boyuan F.',
     job: 'Cryptography',
     github: 'https://github.com/BoyuanFeng',
     twitter: '',
   },
   {
     avatar: brandon,
-    name: 'Brandon',
+    name: 'Brandon G.',
     job: 'Cryptography',
     github: 'https://github.com/bhgomes',
     twitter: 'https://twitter.com/brandonhgomes',
   },
   {
     avatar: chloe,
-    name: 'Chloe',
+    name: 'Chloe W.',
     job: 'Product',
     github: '',
     twitter: 'https://twitter.com/0xchloey',
   },
   {
     avatar: danny,
-    name: 'Danny',
+    name: 'Danny J.',
     job: 'Full-Stack',
     github: 'https://github.com/dansofter',
     twitter: '',
   },
   {
     avatar: dylan,
-    name: 'Dylan Dedi',
+    name: 'Dylan D.',
     job: 'Marketing',
     github: '',
     twitter: 'https://twitter.com/dylan_dedi',
   },
   {
     avatar: fran,
-    name: 'Francisco',
-    job: 'Cryptography',
+    name: 'Francisco H.',
+    job: 'DevOps',
     github: 'https://github.com/SupremoUGH',
     twitter: '',
   },
   {
     avatar: georgi,
-    name: 'Georgi',
+    name: 'Georgi Z.',
     job: 'Runtime',
     github: 'https://github.com/ghzlatarev',
     twitter: '',
   },
   {
     avatar: godot,
-    name: 'Godot Sancho',
+    name: 'Godot S.',
     job: 'Marketing',
     github: '',
     twitter: 'https://twitter.com/GodotSancho',
   },
   {
     avatar: helena,
-    name: 'Helena',
+    name: 'Helena F.',
     job: 'Marketing',
     github: '',
     twitter: 'https://twitter.com/helsfoftroy',
@@ -113,7 +113,7 @@ export const contributors = [
   { avatar: holly, name: 'Holly', job: 'Marketing', github: '', twitter: '' },
   {
     avatar: jamie,
-    name: 'Jamie',
+    name: 'Jamie Z.',
     job: 'Runtime',
     github: 'https://github.com/Dengjianping',
     twitter: '',
@@ -122,31 +122,31 @@ export const contributors = [
   { avatar: kate, name: 'Kate Milburn', job: 'Operations', github: '', twitter: '' },
   {
     avatar: kevin,
-    name: 'Kevin Gislason',
+    name: 'Kevin G.',
     job: 'Full-Stack',
     github: 'https://github.com/Kevingislason',
     twitter: '',
   },
   {
     avatar: nikola,
-    name: 'Nikola Dimitroff',
+    name: 'Nikola D.',
     job: 'Runtime',
     github: 'https://github.com/nikoladimitroff',
     twitter: '',
   },
-  { avatar: pierre, name: 'Pierre', job: 'Cryptography', github: '', twitter: '' },
-  { avatar: ruihan, name: 'Ruihan Wang', job: 'BizDev', github: '', twitter: '' },
-  { avatar: rob, name: 'Rob', job: 'DevOps', github: 'https://github.com/grenade', twitter: '' },
-  { avatar: simeon, name: 'Simeon', job: 'Runtime', github: '', twitter: '' },
+  { avatar: pierre, name: 'Pierre D.', job: 'Cryptography', github: '', twitter: '' },
+  { avatar: ruihan, name: 'Ruihan W.', job: 'BizDev', github: '', twitter: '' },
+  { avatar: rob, name: 'Rob T.', job: 'DevOps', github: 'https://github.com/grenade', twitter: '' },
+  { avatar: simeon, name: 'Simeon Z.', job: 'Runtime', github: '', twitter: '' },
   {
     avatar: todd,
-    name: 'Todd',
+    name: 'Todd N.',
     job: 'Cryptography',
     github: 'https://github.com/GhostOfGauss',
     twitter: '',
   },
-  { avatar: vankyo, name: 'Vankyo', job: 'BizDev', github: '', twitter: '' },
-  { avatar: yi, name: 'Yi Liu', job: 'Runtime', github: 'https://github.com/flame4', twitter: '' },
+  { avatar: vankyo, name: 'Vankyo S.', job: 'BizDev', github: '', twitter: '' },
+  { avatar: yi, name: 'Yi L.', job: 'Runtime', github: 'https://github.com/flame4', twitter: '' },
 ];
 
 export const advisors = [
@@ -166,14 +166,14 @@ export const advisors = [
   },
   {
     avatar: luke,
-    name: 'Luke Pearson',
+    name: 'Luke P.',
     job: 'Polychain Capital',
     github: '',
     twitter: 'https://twitter.com/lukejdpearson',
   },
   {
     avatar: toghrul,
-    name: 'Toghrul Maharramov',
+    name: 'Toghrul M.',
     job: 'Scroll Tech',
     github: '',
     twitter: 'https://twitter.com/toghrulmaharram',
@@ -198,7 +198,7 @@ export const founders = [
   },
   {
     avatar: victor,
-    name: 'Victor Li',
+    name: 'Victor Ji',
     job: 'Strategy',
     twitter: 'https://twitter.com/victorJi15',
     intro:
@@ -219,11 +219,11 @@ export const projects = [
     iconRight: icon9,
     title: 'Poseidon VM',
     subtitle: 'Research',
-    intro: 'Poseidon VM: the ONLY zkApp Friendly VM with EVM Compatibility',
+    intro: 'Poseidon VM: the ONLY zkApp-friendly VM with EVM Compatibility',
     intro2: [
-      '· zkApps with application of privacy, scalability, and attestation',
-      '· gas efficient zkApp transactions',
-      '· maximal EVM compatibility',
+      'zkApps with privacy, scalability, and attestation',
+      'gas-efficient zkApp transactions',
+      'EVM compatibility',
     ],
   },
   {
@@ -233,7 +233,7 @@ export const projects = [
     subtitle: 'Coming soon',
     intro:
       'Manta Network is the plug-and-play privacy-preservation parachain built to service the Polkadot ecosystem',
-    btnText: 'Enter manta',
+    btnText: 'Explore Manta',
     link: 'https://www.manta.network/',
   },
   {
@@ -253,24 +253,24 @@ export const useCase = [
     icon: icon1,
     title: 'DeFi',
     intro:
-      'Financial privacy has not yet been addressed in DeFi: many users avoid using because of the fully transparent transaction history. Any DeFi solution could be built on top of MantaPay, without any code change to access private payments & swaps.',
+      'Financial privacy has not yet been addressed in DeFi: many users avoid using DeFi due to the fully transparent transaction history. Any DeFi solution can be deployed on top of MantaPay without any code change to access private payments, swaps, lending, etc.',
   },
   {
     icon: icon2,
     title: 'NFTs',
     intro:
-      'Using an NFT as your PFP is a major privacy leakage (connecting the link of pseudo-anonymous public address and a user’s identity). Zero-knowledge-proof based attestation can prove the NFT ownership without privacy leakage.',
+      'Using an NFT as your PFP is a privacy concern (connecting a pseudo-anonymous public address to a social identity). ZKP-based attestation can prove NFT ownership without any privacy leakage.',
   },
   {
     icon: icon3,
     title: 'Gaming',
     intro:
-      'If a game needs to be settled on-chain, each player needs to hide her state in general; otherwise there will be a huge MEV problem of the game. If we would like to build an open metaverse on chain, privacy is a must rather than optional.',
+      'If a game needs to be settled on-chain, each player needs to hide her state to avoid MEV. If we would like to build an open metaverse on chain, privacy is a must rather than optional.',
   },
   {
     icon: icon4,
     title: 'DAO Tooling',
     intro:
-      'As the future of human organization, privacy is much needed in many aspects of DAO tooling: private voting to avoid high tension and voter retaliation, private payroll system to keep a healthy organization, private message boards for internal anonymous feedback. The list of private DAO tooling needs is endless.',
+      'As the future of human organization, privacy is much needed in many aspects of DAO tooling: private voting to avoid high tension and voter retaliation, private payroll systems to keep a healthy organization, private message boards for internal anonymous feedback. The list of private DAO tooling needs is endless.',
   },
 ];
