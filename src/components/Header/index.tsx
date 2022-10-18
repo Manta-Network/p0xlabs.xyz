@@ -16,11 +16,11 @@ export const Header: FC<Props> = ({ logo, className, menu }) => {
       </RouterLink>
       <div className="ml-auto flex mb:hidden">
         <div className="mr-[38px] cursor-pointer font-inter text-[16px] font-medium">
-          <RouterLink to="/team">Careers</RouterLink>
+          <RouterLink to="/team">Team</RouterLink>
         </div>
         <div className="mr-[75px] cursor-pointer font-inter text-[16px] font-medium">
           <a target="_blank" rel="noopener noreferrer" href="https://jobs.lever.co/MantaNetwork">
-            Jobs
+            Careers
           </a>
         </div>
       </div>
