@@ -18,7 +18,6 @@ import dylan from 'assets/images/team/dylan.svg';
 import fran from 'assets/images/team/fran.svg';
 import georgi from 'assets/images/team/georgi.svg';
 import godot from 'assets/images/team/godot.svg';
-import helena from 'assets/images/team/helena.svg';
 import holly from 'assets/images/team/holly.svg';
 import jamie from 'assets/images/team/jamie.svg';
 import jenni from 'assets/images/team/jenni.svg';
@@ -104,13 +103,12 @@ export const contributors = [
     twitter: 'https://twitter.com/GodotSancho',
   },
   {
-    avatar: helena,
-    name: 'Helena F.',
+    avatar: holly,
+    name: 'Li H.',
     job: 'Marketing',
     github: '',
-    twitter: 'https://twitter.com/helsfoftroy',
+    twitter: '',
   },
-  { avatar: holly, name: 'Holly', job: 'Marketing', github: '', twitter: '' },
   {
     avatar: jamie,
     name: 'Jamie Z.',
@@ -118,8 +116,20 @@ export const contributors = [
     github: 'https://github.com/Dengjianping',
     twitter: '',
   },
-  { avatar: jenni, name: 'Jennifer', job: 'Marketing', github: '', twitter: '' },
-  { avatar: kate, name: 'Kate Milburn', job: 'Operations', github: '', twitter: '' },
+  {
+    avatar: jenni,
+    name: 'Jennifer M.',
+    job: 'Marketing',
+    github: '',
+    twitter: '',
+  },
+  {
+    avatar: kate,
+    name: 'Kate M.',
+    job: 'Operations',
+    github: '',
+    twitter: '',
+  },
   {
     avatar: kevin,
     name: 'Kevin G.',
@@ -134,10 +144,28 @@ export const contributors = [
     github: 'https://github.com/nikoladimitroff',
     twitter: '',
   },
-  { avatar: pierre, name: 'Pierre D.', job: 'Cryptography', github: '', twitter: '' },
+  {
+    avatar: pierre,
+    name: 'Pierre D.',
+    job: 'Cryptography',
+    github: '',
+    twitter: '',
+  },
   { avatar: ruihan, name: 'Ruihan W.', job: 'BizDev', github: '', twitter: '' },
-  { avatar: rob, name: 'Rob T.', job: 'DevOps', github: 'https://github.com/grenade', twitter: '' },
-  { avatar: simeon, name: 'Simeon Z.', job: 'Runtime', github: '', twitter: '' },
+  {
+    avatar: rob,
+    name: 'Rob T.',
+    job: 'DevOps',
+    github: 'https://github.com/grenade',
+    twitter: '',
+  },
+  {
+    avatar: simeon,
+    name: 'Simeon Z.',
+    job: 'Runtime',
+    github: '',
+    twitter: '',
+  },
   {
     avatar: todd,
     name: 'Todd N.',
@@ -146,7 +174,13 @@ export const contributors = [
     twitter: '',
   },
   { avatar: vankyo, name: 'Vankyo S.', job: 'BizDev', github: '', twitter: '' },
-  { avatar: yi, name: 'Yi L.', job: 'Runtime', github: 'https://github.com/flame4', twitter: '' },
+  {
+    avatar: yi,
+    name: 'Yi L.',
+    job: 'Runtime',
+    github: 'https://github.com/flame4',
+    twitter: '',
+  },
 ];
 
 export const advisors = [
@@ -180,7 +214,7 @@ export const advisors = [
   },
   {
     avatar: wei,
-    name: 'Wei Dai',
+    name: 'Wei D.',
     job: 'Bain Capital Crypto',
     github: '',
     twitter: 'https://twitter.com/_weidai',
@@ -190,15 +224,15 @@ export const advisors = [
 export const founders = [
   {
     avatar: shumo,
-    name: 'Shumo Chu',
+    name: 'Shumo C.',
     job: 'Technical',
     twitter: 'https://twitter.com/shumochu',
     intro:
-      'Shumo obtained a Ph.D. In Computer Science and Engineering from University of Washington Before UCSB, he served sa a research scientist in Algorand. He published over 10 peer-reviewed papers in top conferences.',
+      'Shumo obtained a Ph.D. In Computer Science and Engineering from University of Washington. Before UCSB, he served as a research scientist in Algorand. He has published over 10 peer-reviewed papers in top conferences.',
   },
   {
     avatar: victor,
-    name: 'Victor Ji',
+    name: 'Victor J.',
     job: 'Strategy',
     twitter: 'https://twitter.com/victorJi15',
     intro:
@@ -206,11 +240,11 @@ export const founders = [
   },
   {
     avatar: kenny,
-    name: 'Kenny Li',
+    name: 'Kenny L.',
     job: 'Operations',
     twitter: 'https://twitter.com/superanonymousk',
     intro:
-      'Kenny received his MBA from MIT. He is an entrepreneur that has started, advised, and invested in startups for over a decade, He previously has done work for MIT’s DCI and served as teaching assistant for blockchain courses at MIT.',
+      'Kenny received his MBA from MIT. He is an entrepreneur that has started, advised, and invested in startups for over a decade. He previously has done work for MIT’s DCI and served as teaching assistant for blockchain courses at MIT.',
   },
 ];
 
