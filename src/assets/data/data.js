@@ -253,7 +253,7 @@ export const projects = [
     iconRight: icon9,
     title: 'Poseidon Rollup',
     subtitle: 'Research',
-    intro: 'Poseidon Rollup: the ONLY zkApp-friendly VM with EVM Compatibility',
+    intro: 'Poseidon Rollup: the ONLY zkApp-friendly rollup with EVM Compatibility',
     intro2: [
       'zkApps with privacy, scalability, and attestation',
       'gas-efficient zkApp transactions',
