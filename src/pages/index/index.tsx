@@ -38,7 +38,7 @@ export const Index: FC = () => {
                 <div>TO EVERY WEB3 PROJECT</div>
               </div>
               <div className="mt-[93px] mb-[180px] w-[490px] font-mono text-[20px] text-black2 opacity-80">
-                We are p0xeidon labs, the decentralized laboratory for building cutting-edge privacy
+                We are p0x labs, the decentralized laboratory for building cutting-edge privacy
                 technologies
               </div>
               <div className="font-light text-black opacity-80">
@@ -65,14 +65,14 @@ export const Index: FC = () => {
                 <img src={wave} />
               </div>
               <div className="flex-1">
-                <div className="text-[60px] font-medium text-blue">p0xeidon labs</div>
+                <div className="text-[60px] font-medium text-blue">p0x labs</div>
                 <div className="h-[37px] bg-gray" />
               </div>
             </div>
             <div className="flex items-center justify-between">
               <div className="my-[40px] w-[635px] text-black2">
-                p0xeidon labs is a team of world-class contributors on a mission to enable privacy
-                across web3. At p0xeidon labs, we believe privacy is a fundamental human right and
+                p0x labs is a team of world-class contributors on a mission to enable privacy
+                across web3. At p0x labs, we believe privacy is a fundamental human right and
                 we work to build and deploy the tools to make it accessible to the world. Powered by
                 zero-knowledge proofs, we lead innovation in the cryptography space.
               </div>
@@ -199,7 +199,7 @@ export const Index: FC = () => {
           <img src={arrow2} className="absolute left-[153px] -top-[27px]" />
           <div className="mt-[85px] text-center text-[60px] font-medium text-black1">USE CASE</div>
           <div className="mx-auto mt-[25px] mb-[62px] w-[830px] text-center text-[14px] text-black opacity-80">
-            These use cases can be deployed on any network built by p0xeidon labs. If you are
+            These use cases can be deployed on any network built by p0x labs. If you are
             interested in pursuing a use case further, please reach out to hello@p0xeidon.xyz
           </div>
           <div className="flex justify-center gap-[30px]">
@@ -225,7 +225,7 @@ export const Index: FC = () => {
             <div>TO EVERY WEB3 PROJECT</div>
           </div>
           <div className="mt-[20px] mb-[16px] w-full px-[37px] font-mono text-[14px] text-black2 opacity-80">
-            We are p0xeidon labs, the decentralized laboratory for building cutting-edge privacy
+            We are p0x labs, the decentralized laboratory for building cutting-edge privacy
             technologies
           </div>
           <div className="scale-83 text-[12px] font-light text-black opacity-80">
@@ -242,14 +242,14 @@ export const Index: FC = () => {
               <img src={wave} className="w-[35px]" />
             </div>
             <div>
-              <div className="text-[26px] font-medium text-blue">p0xeidon labs</div>
+              <div className="text-[26px] font-medium text-blue">p0x labs</div>
             </div>
             <div className="absolute top-[40px] left-1/2 right-0 h-[14px] bg-gray" />
           </div>
           <div className="relative mt-[30px]">
             <div className="px-[35px] text-black2">
-              p0xeidon labs is a team of world-class contributors on a mission to enable privacy
-              across web3. At p0xeidon labs, we believe privacy is a fundamental human right and we
+              p0x labs is a team of world-class contributors on a mission to enable privacy
+              across web3. At p0x labs, we believe privacy is a fundamental human right and we
               work to build and deploy the tools to make it accessible to the world. Powered by
               zero-knowledge proofs, we lead innovation in the cryptography space.
             </div>
@@ -345,7 +345,7 @@ export const Index: FC = () => {
         <div id="part4-mb" className="relative inline-block w-full bg-gray pb-[40px]">
           <div className="mt-[10px] text-center text-[26px] font-medium text-black1">USE CASE</div>
           <div className="mx-[40px] my-[20px] text-center text-[16px] text-black opacity-80">
-            These use cases can be deployed on any network built by p0xeidon labs. If you are
+            These use cases can be deployed on any network built by p0x labs. If you are
             interested in pursuing a use case further, please reach out to hello@p0xeidon.xyz
           </div>
           <div className="flex flex-col items-center gap-[20px]">

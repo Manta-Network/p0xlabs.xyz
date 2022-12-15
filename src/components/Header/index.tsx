@@ -12,7 +12,7 @@ export const Header: FC<Props> = ({ logo, className, menu }) => {
       className={`gap fixed top-0 left-0 right-0 z-[10] flex h-[80px] items-center backdrop-blur-[10px] ${className}`}
     >
       <RouterLink to="/">
-        <img src={logo} className="ml-[75px] cursor-pointer mb:ml-[20px]" />
+        <img src={logo} className="ml-[75px] h-10 w-48 cursor-pointer mb:ml-[20px]" />
       </RouterLink>
       <div className="ml-auto flex mb:hidden">
         <div className="mr-[38px] cursor-pointer font-inter text-[16px] font-medium">
