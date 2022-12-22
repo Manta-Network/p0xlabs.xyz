@@ -71,9 +71,9 @@ export const Index: FC = () => {
             </div>
             <div className="flex items-center justify-between">
               <div className="my-[40px] w-[635px] text-black2">
-                p0x labs is a team of world-class contributors on a mission to enable privacy
-                across web3. At p0x labs, we believe privacy is a fundamental human right and
-                we work to build and deploy the tools to make it accessible to the world. Powered by
+                p0x labs is a team of world-class contributors on a mission to enable privacy across
+                web3. At p0x labs, we believe privacy is a fundamental human right and we work to
+                build and deploy the tools to make it accessible to the world. Powered by
                 zero-knowledge proofs, we lead innovation in the cryptography space.
               </div>
               <img src={breakLine2} />
@@ -86,7 +86,7 @@ export const Index: FC = () => {
                 <div>
                   <img src={bluePoints} className="h-[22px]" />
                   <div className="mt-[18px] w-[136px] text-[14px] opacity-60">
-                    The first Solidity-programmable zkApp ecosystem powered by zk-SNARKs
+                    World-class cryptography team with specialized expertise in ZKPs
                   </div>
                 </div>
                 <div>
@@ -99,7 +99,7 @@ export const Index: FC = () => {
                   <img src={bluePoints} className="h-[22px]" />
                   <div className="relative mt-[18px] w-[136px] text-[14px]">
                     <div className="opacity-60">
-                      Build a universal execution layer on most decentralized networks
+                      Enabling universal ZKP development through open source abstractions
                     </div>
                     <img src={arrow} className="absolute top-[193px] right-0" />
                   </div>
@@ -130,7 +130,6 @@ export const Index: FC = () => {
             <div className="mt-[53px] h-[254px] w-[600px] rounded-[17px] bg-white py-[25px] text-center shadow-[0px_5px_34px_rgba(0,0,0,0.06)]">
               <div className="flex h-[50px] items-center justify-center gap-[13px]">
                 <span className="text-[30px]">{projects[0].title}</span>
-                <img src={projects[0].iconRight} />
               </div>
               <div className="relative z-[1] mx-auto mt-[10px] w-[85px]">
                 <div className="absolute bottom-[3px] z-[-1] h-[5px] w-full bg-yellow" />
@@ -138,9 +137,13 @@ export const Index: FC = () => {
               </div>
               <div className="text-[14px] opacity-80">
                 <div className="mt-[10px] mb-[30px]">{projects[0].intro}</div>
-                {projects[0].intro2?.map((v, i) => (
-                  <div key={i}>{v}</div>
-                ))}
+                <button
+                  className="relative mx-auto block h-[48px] w-[377px] rounded-[8px] bg-blue text-white"
+                  onClick={() => window.open(projects[0].link)}
+                >
+                  <img src={wave3} className="absolute left-0 bottom-0" />
+                  <span className="text-[20px]">{projects[0].btnText}</span>
+                </button>
               </div>
             </div>
             <div className="mt-[90px] flex gap-[40px]">
@@ -199,8 +202,8 @@ export const Index: FC = () => {
           <img src={arrow2} className="absolute left-[153px] -top-[27px]" />
           <div className="mt-[85px] text-center text-[60px] font-medium text-black1">USE CASE</div>
           <div className="mx-auto mt-[25px] mb-[62px] w-[830px] text-center text-[14px] text-black opacity-80">
-            These use cases can be deployed on any network built by p0x labs. If you are
-            interested in pursuing a use case further, please reach out to hello@p0xeidon.xyz
+            These use cases can be deployed on any network built by p0x labs. If you are interested
+            in pursuing a use case further, please reach out to hello@p0xeidon.xyz
           </div>
           <div className="flex justify-center gap-[30px]">
             {useCase.map((v, i) => (
@@ -248,9 +251,9 @@ export const Index: FC = () => {
           </div>
           <div className="relative mt-[30px]">
             <div className="px-[35px] text-black2">
-              p0x labs is a team of world-class contributors on a mission to enable privacy
-              across web3. At p0x labs, we believe privacy is a fundamental human right and we
-              work to build and deploy the tools to make it accessible to the world. Powered by
+              p0x labs is a team of world-class contributors on a mission to enable privacy across
+              web3. At p0x labs, we believe privacy is a fundamental human right and we work to
+              build and deploy the tools to make it accessible to the world. Powered by
               zero-knowledge proofs, we lead innovation in the cryptography space.
             </div>
             <img src={breakLine2} className="absolute -top-[25px] right-0 w-[90px]" />
@@ -316,13 +319,6 @@ export const Index: FC = () => {
               </div>
               <div className="text-[12px] opacity-80">
                 <div className="my-[10px]">{v.intro}</div>
-                {v.intro2 !== undefined ? (
-                  <div className="mt-[10px]">
-                    {v.intro2.map(val => (
-                      <div key={val}>{val}</div>
-                    ))}
-                  </div>
-                ) : null}
               </div>
               {v.link !== undefined ? (
                 <button
@@ -345,8 +341,8 @@ export const Index: FC = () => {
         <div id="part4-mb" className="relative inline-block w-full bg-gray pb-[40px]">
           <div className="mt-[10px] text-center text-[26px] font-medium text-black1">USE CASE</div>
           <div className="mx-[40px] my-[20px] text-center text-[16px] text-black opacity-80">
-            These use cases can be deployed on any network built by p0x labs. If you are
-            interested in pursuing a use case further, please reach out to hello@p0xeidon.xyz
+            These use cases can be deployed on any network built by p0x labs. If you are interested
+            in pursuing a use case further, please reach out to hello@p0xeidon.xyz
           </div>
           <div className="flex flex-col items-center gap-[20px]">
             {useCase.map((v, i) => (

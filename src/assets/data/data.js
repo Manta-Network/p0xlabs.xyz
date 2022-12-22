@@ -68,13 +68,6 @@ export const contributors = [
     twitter: 'https://twitter.com/0xchloey',
   },
   {
-    avatar: danny,
-    name: 'Danny J.',
-    job: 'Full-Stack',
-    github: 'https://github.com/dansofter',
-    twitter: '',
-  },
-  {
     avatar: dylan,
     name: 'Dylan D.',
     job: 'Marketing',
@@ -124,31 +117,10 @@ export const contributors = [
     twitter: '',
   },
   {
-    avatar: kate,
-    name: 'Kate M.',
-    job: 'Operations',
-    github: '',
-    twitter: '',
-  },
-  {
     avatar: kevin,
     name: 'Kevin G.',
     job: 'Full-Stack',
     github: 'https://github.com/Kevingislason',
-    twitter: '',
-  },
-  {
-    avatar: nikola,
-    name: 'Nikola D.',
-    job: 'Runtime',
-    github: 'https://github.com/nikoladimitroff',
-    twitter: '',
-  },
-  {
-    avatar: pierre,
-    name: 'Pierre D.',
-    job: 'Cryptography',
-    github: '',
     twitter: '',
   },
   { avatar: ruihan, name: 'Ruihan W.', job: 'BizDev', github: '', twitter: '' },
@@ -250,15 +222,11 @@ export const founders = [
 
 export const projects = [
   {
-    iconRight: icon9,
-    title: 'Poseidon Rollup',
+    title: 'OpenZL',
     subtitle: 'Research',
-    intro: 'Poseidon Rollup: the ONLY zkApp-friendly rollup with EVM Compatibility',
-    intro2: [
-      'zkApps with privacy, scalability, and attestation',
-      'gas-efficient zkApp transactions',
-      'EVM compatibility',
-    ],
+    intro: 'OpenZL: A proof-system-agnostic ZK infrastructure library',
+    btnText: 'Explore OpenZL',
+    link: 'https://github.com/openzklib',
   },
   {
     iconLeft: icon5,
@@ -297,14 +265,8 @@ export const useCase = [
   },
   {
     icon: icon3,
-    title: 'Gaming',
+    title: 'Social',
     intro:
-      'If a game needs to be settled on-chain, each player needs to hide her state to avoid MEV. If we would like to build an open metaverse on chain, privacy is a must rather than optional.',
-  },
-  {
-    icon: icon4,
-    title: 'DAO Tooling',
-    intro:
-      'As the future of human organization, privacy is much needed in many aspects of DAO tooling: private voting to avoid high tension and voter retaliation, private payroll systems to keep a healthy organization, private message boards for internal anonymous feedback. The list of private DAO tooling needs is endless.',
+      'In decentralized social networks, privacy is an essential element for individuals to have control over and manage their identity. Without the implementation of zero-knowledge proofs, web3 social applications may unfortunately become instruments for data harvesting and surveillance.',
   },
 ];
