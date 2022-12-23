@@ -266,7 +266,7 @@ export const Index: FC = () => {
               <div>
                 <img src={bluePoints} className="mx-auto h-[24px]" />
                 <div className="mx-auto mt-[11px] w-[150px] text-[12px] opacity-60">
-                  The first Solidity-programmable zkApp ecosystem powered by zk-SNARKs
+                  World-class cryptography team with specialized expertise in ZKPs
                 </div>
               </div>
               <div className="mt-[20px]">
@@ -278,7 +278,7 @@ export const Index: FC = () => {
               <div className="mt-[20px]">
                 <img src={bluePoints} className="mx-auto h-[24px]" />
                 <div className="mx-auto mt-[11px] w-[150px] text-[12px] opacity-60">
-                  Build a universal execution layer on most decentralized networks
+                  Enabling universal ZKP development through open source abstractions
                 </div>
               </div>
             </div>
