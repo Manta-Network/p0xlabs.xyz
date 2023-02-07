@@ -9,7 +9,6 @@ import icon8 from 'assets/images/home/icon8.svg';
 import icon9 from 'assets/images/home/icon9.svg';
 import adam from 'assets/images/team/adam.svg';
 import algod from 'assets/images/team/algod.svg';
-import boyuan from 'assets/images/team/boyuan.svg';
 import brandon from 'assets/images/team/brandon.svg';
 import chloe from 'assets/images/team/chloe.svg';
 import da from 'assets/images/team/da.svg';
@@ -44,13 +43,6 @@ export const contributors = [
     name: 'Adam R.',
     job: 'Runtime',
     github: 'https://github.com/Garandor',
-    twitter: '',
-  },
-  {
-    avatar: boyuan,
-    name: 'Boyuan F.',
-    job: 'Cryptography',
-    github: 'https://github.com/BoyuanFeng',
     twitter: '',
   },
   {
